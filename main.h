@@ -11,16 +11,12 @@
 typedef struct stdout_
 {
 	char sym;
-	int (*pfunc)(va_list*);
+	int (*pfunc)(va_list *);
 } stdout_t;
 
 int _putchar(char c);
 stdout_t select_printer(char s);
-int _printf(const char *format, ...)
-
-
-
-
+int _printf(const char *format, ...);
 
 
 #endif /* MAIN_H */
