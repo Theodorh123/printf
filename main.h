@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _Main_H_
+#define _Main_H_
 
 #include <stdarg.h>
 #include <unistd.h>
@@ -48,7 +48,6 @@ int printnumber(int n);
 int print_hex_lower(va_list arg);
 int print_hex_upper(va_list arg);
 int _strlen(char *s);
-
 /* print string without va_list */
 void _puts(char *s);
 char *convert_num_to_base(char range[], unsigned int num, int base);
