@@ -6,7 +6,7 @@
  *
  * Description: This function prints the rot13'ed string.
  *
- * Return: The total number of characters (count).
+ * Return: The total number of characters.
  */
 int rot13(va_list y)
 {
