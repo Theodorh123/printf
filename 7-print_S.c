@@ -3,7 +3,7 @@
 /**
   * print_S - prints custom specifier
   * @list: va_list
-  * Return: number of characters printed
+  * Return: number of characters printed (count)
   */
 int print_S(va_list list)
 {
