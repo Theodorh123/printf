@@ -4,9 +4,9 @@
  * print_rev - main function
  * @y: The argument pointer.
  *
- * Description: This function reverse a string.
+ * Description: This function reverses a string.
  *
- * Return: The total number of characters.
+ * Return: The total number of characters (count).
  */
 int print_rev(va_list y)
 {
