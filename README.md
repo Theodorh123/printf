@@ -19,3 +19,39 @@ The <b>_printf()</b> function write the output under the control of a format str
 <li>%: A '%' is written. No argument is converted. The complete conversion specification is '%%'.</li>
 </ul>
 </h4>
+
+<h2>About Functions</h2>
+<h3>int _write(char c)</h3>
+<h4>This function gets a char parameter and writes the parameter to the stdout, the standard output stream.</h4>
+
+<h3>int _print_a_char (va_list args)</h3>
+<h4>This function gets a variadic arguments list, traverse the list, prints each character of char type and returns the length of the character.</h4>
+
+<h3>int _print_a_string (va_list args)</h3>
+<h4>This function gets a variadic arguments list, traverse the list, prints each string and returns the length of the string.</h4>
+
+<h3>int _print_a_integer (va_list args)</h3>
+<h4>This function gets a variadic arguments list, traverse the list, prints each number of int type and returns the length of the integer.</h4>
+
+<h3>int _print_format (const char *format, va_list args)</h3>
+<h4>This function gets a format to be printed and a variadic arguments list, next to check if the format is valid or invalid and according with the verification the resulting output is written to the standard output stream and returns the format length.</h4>
+
+<h3>int _print_spec (char format, va_list args):</h3>
+<h4>This function gets a format valid to be printed and a variadic arguments list to find the format in the list and selects the appropriate function to execute and writes the format to the standard output stream and returns the length of the valid format.</h4>
+
+<h3>int _print_invalid_spec (char prev_format, char format, int count)</h3>
+<h4>This function gets the previous format of the current format, the actual format and the current count of printed characters. Next, the invalid format is written to the standard output stream and returns the length of the invalid format.</h4>
+
+<h3>void _recursion_integer(int a)</h3>
+<h4>This function gets an integer and prints the last digit of the number as recursion is applied.</h4>
+
+<h3>int _validate_char(char _type)</h3>
+<h4>Gets a type and checks if the passed parameter is present in a structure of valid conversion specifiers. Next, returns if the parameter is valid or invalid.</h4>
+
+<h2>Return Value</h2>
+<h4>Upon successful return, the _printf() function return the number of characters printed (excluding the null byte used to end output to strings).
+
+If an output error is encountered, a negative value is returned.</h4>
+
+<h2>Authors</h2>
+<h3>rhomeinel & Theodorh123</h3>
