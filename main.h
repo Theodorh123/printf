@@ -37,4 +37,16 @@ int oper_string(va_list y);
 int oper_percent(va_list y);
 int oper_numbers(va_list arg);
 
+/* Advanced Prototypes*/
+
+int oper_unsigned(va_list arg);
+int oper_binary(va_list y);
+int oper_octal(va_list y);
+int rot13(va_list y);
+int print_rev(va_list y);
+int printnumber(int n);
+int print_hex_lower(va_list arg);
+int print_hex_upper(va_list arg);
+int _strlen(char *s);
+
 #endif
