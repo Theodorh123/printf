@@ -5,7 +5,6 @@
  * @format: is the input str.
  * @...: The parameters to print.
  *
- * Return: number of chars printed.
  * Return: The total number of characters printed.
  */
 
