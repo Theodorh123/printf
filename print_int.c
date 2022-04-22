@@ -46,7 +46,7 @@ int printnumber(int n)
 }
 
 /**
- * op_numbers - main function
+ * oper_numbers - main function
  * @arg: The argument pointer.
  *
  * Description: This function prints a intergers and Decimals
