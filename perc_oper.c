@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * op_percent - main function
+ * oper_percent - main function
  * @y: The argument pointer.
  *
  * Description: This function prints a percent.
