@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * op_unsigned - main function
+ * oper_unsigned - main function
  * @arg: The argument pointer.
  *
  * Description: This function prints a unsigned int.
